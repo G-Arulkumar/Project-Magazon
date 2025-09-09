@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazon The E-commerce Website</title>
+    <style>
+        body {
+            font-family: "Roboto",sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+            height: 5em;
+        }
+        nav {
+            background-color: #000000;
+            color: white;
+            padding: 10px;    
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+            height: 1.5em;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0.25em;
+            text-align: center; 
+
+        }
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a:hover{
+            border: #FFFFFF solid 1px;
+            color: aqua;
+        }
+        nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 5px 10px; 
+        }
+        a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+        main {
+            background-color: #F8F8FF;
+            display: block;
+            max-width: 100%;
+            min-height: 60vh;
+            position:relative;
+
+        }
+        form {
+            position:absolute;
+            text-align: left;
+            padding: 45px;
+            padding-top:20px;
+            display: inline-block;
+            border:5px solid #FFFFFF;
+            border-radius:40px;
+            background-color: #000000;
+            color: #FFFFFF;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%) ;
+        }
+        h2{ 
+          font-size:30px;
+          padding-bottom: 40px;
+          }
+        input{
+            background-color: #FFFFFF;
+            padding:0.5em 1em;
+            border:3px solid #FFFFFF; 
+            border-radius: 1em;
+        }
+        lable{
+            font-size:20px;
+            padding: 5px;
+            display: block;
+            color: #FFFFFF;
+        }
+        button{
+            font-size: 18px;
+            color: #FFFFFF;
+            background-color: #000000;
+            padding:0.5em 1em;
+            margin-top: 40px;
+            border-radius: 50px;
+            display: block; 
+            }
+button:hover {
+            color: #000000;
+            background-color: #FFFFFF;
+            }
+        footer {
+            background-color: #000000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            height:3em;
+            bottom:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+
+
+    <header>
+        <h1>MAGAZON</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main>
+         <form action="shop.html">
+            <center><h2>Login</h2></center>
+            <label><h3>Email</h3></label>
+            <input type="email" placeholder="Email">
+            <label><h3>Password</h3></label>
+            <input type="password" placeholder="Password"> 
+            <center>
+            <button>Login</button>  
+            </center>
+         </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Magazon E-commerce Store</p>
+    </footer>
+ </body>
+ </html>
+    
+
+</body>
+</html>
