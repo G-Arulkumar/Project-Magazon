@@ -4,32 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magazon The E-commerce Website</title>
+    <link rel="icon" href="M icon.ico">
     <style>
         body {
-            font-family: "Roboto",sans-serif;
+            font-family: sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
         header {
             background-color: #FFFFFF;
             padding: 20px;
             text-align: center;
-            height: 5em;
         }
         nav {
             background-color: #000000;
             color: white;
-            padding: 10px;    
+            padding: 10px;
             position: sticky;
             top: 0;
             overflow: hidden;
-            height: 1.5em;
+            justify-content: space-between;
         }
         nav ul {
             list-style: none;
             margin: 0;
-            padding: 0.25em;
+            padding: 0;
             text-align: center; 
 
         }
@@ -37,84 +36,56 @@
             display: inline;
             margin: 0 15px;
         }
-        nav a:hover{
-            border: #FFFFFF solid 1px;
-            color: aqua;
-        }
         nav a {
             color: #FFFFFF;
             text-decoration: none;
             padding: 5px 10px; 
         }
+        nav a:hover{
+            border: #FFFFFF solid 1px;
+            color: aqua;
+        }
         a {
             color: rgb(0, 0, 0);
             text-decoration: none;
         }
+        h2 {
+            margin-bottom: 50px;
+        }
+
 
         main {
+            text-align: center;
+            padding: 5%;
             background-color: #F8F8FF;
             display: block;
-            max-width: 100%;
-            min-height: 60vh;
-            position:relative;
-
         }
-        form {
-            position:absolute;
-            text-align: left;
-            padding: 45px;
-            padding-top:20px;
-            display: inline-block;
-            border:5px solid #FFFFFF;
-            border-radius:40px;
-            background-color: #000000;
-            color: #FFFFFF;
-            top:50%;
-            left:50%;
-            transform: translate(-50%,-50%) ;
-        }
-        h2{ 
-          font-size:30px;
-          padding-bottom: 40px;
+        .para{
+          text-align: justify; 
           }
-        input{
-            background-color: #FFFFFF;
-            padding:0.5em 1em;
-            border:3px solid #FFFFFF; 
-            border-radius: 1em;
-        }
-        lable{
-            font-size:20px;
-            padding: 5px;
-            display: block;
-            color: #FFFFFF;
-        }
         button{
             font-size: 18px;
             color: #FFFFFF;
             background-color: #000000;
             padding:0.5em 1em;
-            margin-top: 40px;
-            border-radius: 50px;
-            display: block; 
+            margin:0.25em;
+            border-radius: 1em;
+            display: block;  
             }
-button:hover {
+       button:hover {
             color: #000000;
             background-color: #FFFFFF;
+            border: 1px solid black;
             }
         footer {
             background-color: #000000;
             color: white;
             padding: 10px;
             text-align: center;
-            height:3em;
-            bottom:0;
         }
     </style>
 </head>
 <body>
-    <div class="body">
-
 
     <header>
         <h1>MAGAZON</h1>
@@ -130,25 +101,18 @@ button:hover {
     </nav>
 
     <main>
-         <form action="shop.html">
-            <center><h2>Login</h2></center>
-            <label><h3>Email</h3></label>
-            <input type="email" placeholder="Email">
-            <label><h3>Password</h3></label>
-            <input type="password" placeholder="Password"> 
-            <center>
-            <button>Login</button>  
-            </center>
-         </form>
+        <h2>Magazon The e-commerce website</h2>
+        <p class="para">Welcome to Magazon, your ultimate destination for a seamless and enjoyable online shopping experience! At Magazon, we pride ourselves on offering a vast selection of high-quality products, from the latest tech gadgets and trendy fashion to home essentials and beyond. Our mission is to provide you with a user-friendly platform that makes finding and purchasing your favorite items quick, easy, and secure. With competitive prices, fast shipping, and exceptional customer service, Magazon is committed to meeting all your shopping needs. Whether you're looking for everyday necessities or unique gifts, Magazon is here to bring the world of shopping right to your fingertips. Explore, discover, and shop with confidence at Magazon – where convenience meets quality!</p>
+        <h4>Start your journey with Magazon today</h4>
+        <h1>👇</h1>
+        <center><a href="shop.html"><button>click here</button></a></center>
+
 
     </main>
 
     <footer>
         <p>&copy; 2025 Magazon E-commerce Store</p>
     </footer>
- </body>
- </html>
-    
 
 </body>
 </html>
